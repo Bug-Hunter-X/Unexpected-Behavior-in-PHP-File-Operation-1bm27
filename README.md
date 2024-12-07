@@ -1,0 +1,2 @@
+# PHP File Operation Bug
+This repository demonstrates a common, yet subtle bug in PHP file operations that can lead to unexpected behavior and silent failures. The code attempts to open a file in read/write mode ('r+') without explicitly checking for its existence. If the file doesn't exist, the operation fails silently, and the script proceeds without proper error handling.
